@@ -4,10 +4,8 @@ fixtures:
     mysql:
       repo: "https://github.com/puppetlabs/puppetlabs-mysql.git"
       ref: "2.1.0"
-    postgresql:
-      repo: "https://github.com/puppetlabs/puppet-postgresql.git"
-      ref: "2.5.0"
-    concat: "https://github.com/ripienaar/puppet-concat.git"
+    postgresql: "https://github.com/puppetlabs/puppet-postgresql.git"
+    concat: "https://github.com/puppetlabs/puppetlabs-concat.git"
     staging: "https://github.com/nanliu/puppet-staging.git"
     epel: "https://github.com/stahnma/puppet-module-epel.git"
     java_ks: "https://github.com/puppetlabs/puppetlabs-java_ks.git"

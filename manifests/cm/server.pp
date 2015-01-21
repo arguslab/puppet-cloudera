@@ -91,7 +91,7 @@
 #   Class['::mysql::server']
 #   Class['::oraclerdbms::java']
 #   Class['::oraclerdbms::server']
-#   Class['::postgresql::java']
+#   Class['::postgresql::lib::java']
 #   Class['::postgresql::server']
 #   Package['jdk']
 #   java_ks
@@ -267,12 +267,12 @@ class cloudera::cm::server (
         $scm_prepare_database_require = [ Package['cloudera-manager-server'], Class['::postgresql::server'], ]
       }
 
-      if ! defined(Class['::postgresql::java']) {
-        include '::postgresql::java'
+      if ! defined(Class['::postgresql::lib::java']) {
+        include '::postgresql::lib::java'
       }
       # TODO: Figure out postgresql auth to make Exec['scm_prepare_database'] work.
       realize Exec['scm_prepare_database']
-      Class['::postgresql::java'] -> Exec['scm_prepare_database']
+      Class['::postgresql::lib::java'] -> Exec['scm_prepare_database']
     }
     default: { }
   }

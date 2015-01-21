@@ -42,8 +42,8 @@
       "name": "puppetlabs/apt"
     },
     {
-      "version_requirement": ">=1.0.2 <2.0.0",
-      "name": "domcleal/augeasproviders"
+      "version_requirement": "2.x",
+      "name": "herculesteam/augeasproviders_sysctl"
     }
   ],
   "operatingsystem_support": [

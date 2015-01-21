@@ -14,7 +14,7 @@
       "name": "puppetlabs/stdlib"
     },
     {
-      "version_requirement": ">=2.0.0 <3.0.0",
+      "version_requirement": ">=2.0.0 <4.0.0",
       "name": "puppetlabs/mysql"
     },
     {
@@ -22,19 +22,19 @@
       "name": "puppetlabs/postgresql"
     },
     {
-      "version_requirement": ">=0.2.1",
+      "version_requirement": "1.x",
       "name": "nanliu/staging"
     },
     {
-      "version_requirement": ">=0.0.3",
+      "version_requirement": "1.x",
       "name": "stahnma/epel"
     },
     {
-      "version_requirement": ">=1.0.0 <2.0.0",
+      "version_requirement": "1.x",
       "name": "puppetlabs/java_ks"
     },
     {
-      "version_requirement": ">=1.0.0 <2.0.0",
+      "version_requirement": "1.x",
       "name": "darin/zypprepo"
     },
     {

@@ -1,9 +1,7 @@
 fixtures:
   repositories:
     stdlib: "https://github.com/puppetlabs/puppetlabs-stdlib.git"
-    mysql:
-      repo: "https://github.com/puppetlabs/puppetlabs-mysql.git"
-      ref: "2.1.0"
+    mysql: "https://github.com/puppetlabs/puppetlabs-mysql.git"
     postgresql: "https://github.com/puppetlabs/puppet-postgresql.git"
     concat: "https://github.com/puppetlabs/puppetlabs-concat.git"
     staging: "https://github.com/nanliu/puppet-staging.git"

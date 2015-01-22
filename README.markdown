@@ -148,6 +148,11 @@ class { 'cloudera':
 }
 ```
 
+- The [puppetlabs/postgresql](https://forge.puppetlabs.com/puppetlabs/postgresql) dependency will update to version 3 or newer for the 3.0.0 release.  Make sure to review its changelog in the case of an upgrade.
+
+- The [herculesteam/augeasproviders](https://forge.puppetlabs.com/herculesteam/augeasproviders) modules will replace [domcleal/augeasproviders](https://forge.puppetlabs.com/domcleal/augeasproviders) for the 3.0.0 release.
+
+
 ##Usage
 
 All interaction with the cloudera module can be done through the main cloudera class.  This means you can simply toggle the options in `::cloudera` to have full functionality of the module.

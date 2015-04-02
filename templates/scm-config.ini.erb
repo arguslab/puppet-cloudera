@@ -16,7 +16,7 @@ server_port=<%= @server_port %>
 # listening_ip=
 
 # Hostname that Agent reports as its hostname
-listening_hostname=<%= scope.lookupvar('::fqdn') %>
+listening_hostname=<%= scope.lookupvar('::hostname') %>.mtd.ksu
 
 # Log file.  The supervisord log file will be placed into
 # the same directory.  Note that if the agent is being started

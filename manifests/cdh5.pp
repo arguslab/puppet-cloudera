@@ -66,81 +66,81 @@ class cloudera::cdh5 (
     before  => Anchor['cloudera::cdh5::end'],
   }
 
-  class { 'cloudera::cdh5::bigtop':
+#  class { 'cloudera::cdh5::bigtop':
 #    ensure      => $ensure,
 #    autoupgrade => $autoupgrade,
-  }
+#  }
   class { 'cloudera::cdh5::hadoop':
 #    ensure      => $ensure,
 #    autoupgrade => $autoupgrade,
   }
-  class { 'cloudera::cdh5::hue':
+#  class { 'cloudera::cdh5::hue':
 #    ensure      => $ensure,
 #    autoupgrade => $autoupgrade,
-  }
-  class { 'cloudera::cdh5::hue::plugins':
+#  }
+#  class { 'cloudera::cdh5::hue::plugins':
 #    ensure      => $ensure,
 #    autoupgrade => $autoupgrade,
-  }
-  class { 'cloudera::cdh5::hbase':
+#  }
+#  class { 'cloudera::cdh5::hbase':
 #    ensure      => $ensure,
 #    autoupgrade => $autoupgrade,
-  }
-  class { 'cloudera::cdh5::hive':
+#  }
+#  class { 'cloudera::cdh5::hive':
 #    ensure      => $ensure,
 #    autoupgrade => $autoupgrade,
-  }
-  class { 'cloudera::cdh5::oozie':
+#  }
+#  class { 'cloudera::cdh5::oozie':
 #    ensure         => $ensure,
 #    autoupgrade    => $autoupgrade,
 #    service_ensure => $service_ensure,
-  }
-  class { 'cloudera::cdh5::pig':
+#  }
+#  class { 'cloudera::cdh5::pig':
 #    ensure      => $ensure,
 #    autoupgrade => $autoupgrade,
-  }
-  class { 'cloudera::cdh5::zookeeper':
+#  }
+#  class { 'cloudera::cdh5::zookeeper':
 #    ensure      => $ensure,
 #    autoupgrade => $autoupgrade,
-  }
-  class { 'cloudera::cdh5::flume':
+#  }
+#  class { 'cloudera::cdh5::flume':
 #    ensure      => $ensure,
 #    autoupgrade => $autoupgrade,
-  }
-  class { 'cloudera::cdh5::impala':
+#  }
+#  class { 'cloudera::cdh5::impala':
 #    ensure      => $ensure,
 #    autoupgrade => $autoupgrade,
-  }
-  class { 'cloudera::cdh5::search':
+#  }
+#  class { 'cloudera::cdh5::search':
 #    ensure      => $ensure,
 #    autoupgrade => $autoupgrade,
-  }
-  class { 'cloudera::cdh5::search::lilyhbase':
+#  }
+#  class { 'cloudera::cdh5::search::lilyhbase':
 #    ensure      => $ensure,
 #    autoupgrade => $autoupgrade,
-  }
-  class { 'cloudera::cdh5::crunch':
+#  }
+#  class { 'cloudera::cdh5::crunch':
 #    ensure      => $ensure,
 #    autoupgrade => $autoupgrade,
-  }
-  class { 'cloudera::cdh5::hcatalog':
+#  }
+#  class { 'cloudera::cdh5::hcatalog':
 #    ensure      => $ensure,
 #    autoupgrade => $autoupgrade,
-  }
-  class { 'cloudera::cdh5::llama':
+#  }
+#  class { 'cloudera::cdh5::llama':
 #    ensure      => $ensure,
 #    autoupgrade => $autoupgrade,
-  }
-  class { 'cloudera::cdh5::sqoop':
+#  }
+#  class { 'cloudera::cdh5::sqoop':
 #    ensure      => $ensure,
 #    autoupgrade => $autoupgrade,
-  }
-  class { 'cloudera::cdh5::sqoop2':
+#  }
+#  class { 'cloudera::cdh5::sqoop2':
 #    ensure      => $ensure,
 #    autoupgrade => $autoupgrade,
-  }
-  class { 'cloudera::cdh5::spark':
+#  }
+#  class { 'cloudera::cdh5::spark':
 #    ensure      => $ensure,
 #    autoupgrade => $autoupgrade,
-  }
+#  }
 }
